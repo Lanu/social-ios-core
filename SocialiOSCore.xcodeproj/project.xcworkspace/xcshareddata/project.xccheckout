@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D72B1C17-387B-4618-962E-ECDAC0461993</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AD3DAD6C506A16DFA0F6ACCDE491EAAD381449B6</key>
+		<string>https://github.com/aimproductions/unity3d-social.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>social-native/social-ios-core/SocialiOSCore.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AD3DAD6C506A16DFA0F6ACCDE491EAAD381449B6</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/aimproductions/unity3d-social.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AD3DAD6C506A16DFA0F6ACCDE491EAAD381449B6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AD3DAD6C506A16DFA0F6ACCDE491EAAD381449B6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>unity3d-social</string>
+		</dict>
+	</array>
+</dict>
+</plist>

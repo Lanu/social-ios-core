@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SocialiOSCore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1ACA48371B0C76EB00217A9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1ACA48411B0C76EB00217A9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1ACA484F1B0C76F400217A9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1ACA48821B0C771F00217A9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1ACA488C1B0C771F00217A9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C0B3C5EE168C6D0C00161FAA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

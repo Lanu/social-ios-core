@@ -1,0 +1,4 @@
+rm -rf build
+mkdir build
+
+xcodebuild -configuration Release -sdk iphoneos -project SocialiOSCore.xcodeproj -target SocialiOSCore clean build CREATING_UNIVERSAL_DIR=$PWD/build
