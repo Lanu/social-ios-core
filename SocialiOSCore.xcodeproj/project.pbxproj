@@ -308,7 +308,7 @@
 				PRODUCT_NAME = SocialiOSCore;
 				PUBLIC_HEADERS_FOLDER_PATH = headers/public;
 				SKIP_INSTALL = YES;
-				SYMROOT = out;
+				SYMROOT = "$(SRCROOT)/out";
 			};
 			name = Debug;
 		};
@@ -327,7 +327,7 @@
 				PRODUCT_NAME = SocialiOSCore;
 				PUBLIC_HEADERS_FOLDER_PATH = headers/public;
 				SKIP_INSTALL = YES;
-				SYMROOT = out;
+				SYMROOT = "$(SRCROOT)/out";
 			};
 			name = Release;
 		};

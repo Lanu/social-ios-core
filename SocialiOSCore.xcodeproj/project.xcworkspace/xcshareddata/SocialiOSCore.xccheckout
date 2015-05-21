@@ -10,31 +10,31 @@
 	<string>SocialiOSCore</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>AD3DAD6C506A16DFA0F6ACCDE491EAAD381449B6</key>
-		<string>https://github.com/aimproductions/unity3d-social.git</string>
+		<key>DE81B18C6285B537AD187D7150AEBDF319D973F1</key>
+		<string>https://github.com/Lanu/social-ios-core.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>social-native/social-ios-core/SocialiOSCore.xcodeproj</string>
+	<string>SocialiOSCore.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>AD3DAD6C506A16DFA0F6ACCDE491EAAD381449B6</key>
-		<string>../../../..</string>
+		<key>DE81B18C6285B537AD187D7150AEBDF319D973F1</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/aimproductions/unity3d-social.git</string>
+	<string>https://github.com/Lanu/social-ios-core.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>AD3DAD6C506A16DFA0F6ACCDE491EAAD381449B6</string>
+	<string>DE81B18C6285B537AD187D7150AEBDF319D973F1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>AD3DAD6C506A16DFA0F6ACCDE491EAAD381449B6</string>
+			<string>DE81B18C6285B537AD187D7150AEBDF319D973F1</string>
 			<key>IDESourceControlWCCName</key>
-			<string>unity3d-social</string>
+			<string>social-ios-core</string>
 		</dict>
 	</array>
 </dict>
