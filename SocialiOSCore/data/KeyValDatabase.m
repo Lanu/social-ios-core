@@ -38,7 +38,7 @@
         {
             LogDebug(TAG, @"Failed to create key-value table");
         }
-
+        
         sqlite3_close(database);
         
     } else {
@@ -317,19 +317,19 @@
                 LogError(TAG, ([NSString stringWithFormat:@"Error while fetching %@=%@ : %s", KEYVAL_COLUMN_KEY, key, sqlite3_errmsg(database)]));
             } else {
                 while (sqlite3_step(statement) == SQLITE_ROW) {
-//                    for (int i=0; i<sqlite3_column_count(statement); i++) {
-//                        NSString* colName = [NSString stringWithUTF8String:sqlite3_column_name(statement, i)];
+                    //                    for (int i=0; i<sqlite3_column_count(statement); i++) {
+                    //                        NSString* colName = [NSString stringWithUTF8String:sqlite3_column_name(statement, i)];
                     
-//                        if ([colName isEqualToString:KEYVAL_COLUMN_VAL]) {
-                            int colType = sqlite3_column_type(statement, 0);
-                            if (colType == SQLITE_TEXT) {
-                                const unsigned char *col = sqlite3_column_text(statement, 0);
-                                result = [NSString stringWithFormat:@"%s", col];
-                            } else {
-                                LogError(TAG, @"ERROR: UNKNOWN COLUMN DATATYPE");
-                            }
-//                        }
-//                    }
+                    //                        if ([colName isEqualToString:KEYVAL_COLUMN_VAL]) {
+                    int colType = sqlite3_column_type(statement, 0);
+                    if (colType == SQLITE_TEXT) {
+                        const unsigned char *col = sqlite3_column_text(statement, 0);
+                        result = [NSString stringWithFormat:@"%s", col];
+                    } else {
+                        LogError(TAG, @"ERROR: UNKNOWN COLUMN DATATYPE");
+                    }
+                    //                        }
+                    //                    }
                 }
                 
                 // Finalize
@@ -405,12 +405,12 @@
 // Returns the URL to the application's Documents directory.
 - (NSString *) applicationDocumentsDirectory
 {
-        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-        NSString *basePath = ([paths count] > 0) ? paths[0] : nil;
-        return basePath;
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *basePath = ([paths count] > 0) ? paths[0] : nil;
+    return basePath;
 }
 
-static NSString* TAG = @"SOCIAL KeyValDatabase";
+static NSString* TAG = @"SOOMLA KeyValDatabase";
 
 + (NSString*) keyGoodBalance:(NSString*)itemId {
     return [NSString stringWithFormat:@"good.%@.balance", itemId];
